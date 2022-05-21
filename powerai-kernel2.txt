@@ -1,0 +1,164 @@
+absl-py @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/abslpy/absl-py-0.10.0
+adabelief-tf==0.2.1
+alabaster==0.7.12
+appdirs==1.4.4
+asn1crypto==0.24.0
+astor @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/astor/astor-0.8.1
+astunparse @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/astunparse/astunparse-1.6.3
+atomicwrites==1.3.0
+attrs==19.1.0
+Babel==2.7.0
+bcrypt==3.1.7
+bitstring==3.1.6
+blist==1.3.6
+bokeh @ file:///dev/shm/easybuild-build/bokeh/1.4.0/fosscuda-2019b-Python-3.7.4/bokeh/bokeh-1.4.0
+cachetools @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/cachetools/cachetools-4.2.0
+calamari-ocr==2.2.2
+certifi==2019.9.11
+cffi==1.12.3
+chardet==3.0.4
+Click==7.0
+cloudpickle @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/cloudpickle/cloudpickle-1.2.2
+colorama==0.4.4
+cryptography==2.7
+cycler @ file:///dev/shm/easybuild-build/matplotlib/3.1.1/fosscuda-2019b-Python-3.7.4/Cycler/cycler-0.10.0
+Cython @ https://files.pythonhosted.org/packages/cb/da/54a5d7a7d9afc90036d21f4b58229058270cc14b4c81a86d9b2c77fd072e/Cython-0.29.28.tar.gz
+dask @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/dask/dask-2.8.0
+dask-jobqueue @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/daskjobqueue/dask-jobqueue-0.7.0
+dask-mpi @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/daskmpi/dask-mpi-2.0.0
+dataclasses-json==0.5.5
+deap==1.3.0
+decorator==4.4.0
+dill @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/dill/dill-0.3.3
+distributed @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/distributed/distributed-2.8.0
+docopt==0.6.2
+docrep @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/docrep/docrep-0.2.7
+docutils==0.15.2
+ecdsa==0.13.2
+edit-distance==1.0.4
+editdistance==0.6.0
+et-xmlfile==1.1.0
+flatbuffers @ file:///dev/shm/easybuild-build/flatbufferspython/1.12/GCCcore-8.3.0-Python-3.7.4/flatbuffers-1.12
+fsspec @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/fsspec/fsspec-0.6.0
+future==0.17.1
+gast @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/gast/gast-0.3.3
+gitdb==4.0.9
+GitPython==3.1.27
+google-auth @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/googleauth/google-auth-1.24.0
+google-auth-oauthlib @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/googleauthoauthlib/google-auth-oauthlib-0.4.2
+google-pasta @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/googlepasta/google-pasta-0.2.0
+grpcio @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/grpcio/grpcio-1.32.0
+gviz-api @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/gvizapi/gviz_api-1.9.0
+h5py==2.10.0
+HeapDict @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/HeapDict/HeapDict-1.0.1
+idna==2.8
+imageio @ file:///dev/shm/easybuild-build/scikitimage/0.16.2/fosscuda-2019b-Python-3.7.4/imageio/imageio-2.6.1
+imagesize==1.1.0
+importlib-metadata==0.22
+imread @ file:///dev/shm/easybuild-build/scikitimage/0.16.2/fosscuda-2019b-Python-3.7.4/imread/imread-0.7.1
+ipaddress==1.0.22
+Jinja2==2.10.1
+joblib==0.13.2
+Keras-Preprocessing @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/KerasPreprocessing/Keras_Preprocessing-1.1.2
+kiwisolver @ file:///dev/shm/easybuild-build/matplotlib/3.1.1/fosscuda-2019b-Python-3.7.4/kiwisolver/kiwisolver-1.1.0
+liac-arff==2.4.0
+locket @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/locket/locket-0.2.0
+lxml==4.8.0
+Markdown @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/Markdown/Markdown-3.3.3
+MarkupSafe==1.1.1
+marshmallow==3.15.0
+marshmallow-enum==1.5.1
+matplotlib @ file:///dev/shm/easybuild-build/matplotlib/3.1.1/fosscuda-2019b-Python-3.7.4/matplotlib/matplotlib-3.1.1
+mock==3.0.5
+more-itertools==7.2.0
+mpi4py==3.0.2
+mpmath==1.1.0
+msgpack @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/msgpack/msgpack-0.6.2
+mypy-extensions==0.4.3
+netaddr==0.7.19
+netifaces==0.10.9
+networkx @ file:///dev/shm/easybuild-build/scikitimage/0.16.2/fosscuda-2019b-Python-3.7.4/networkx/networkx-2.4
+nose==1.3.7
+nptyping==2.0.0
+numpy==1.19.5
+oauthlib @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/oauthlib/oauthlib-3.1.0
+opencv-python-headless @ file:///home/h1/rosa992c/project/opencv_python_headless-4.2.0%2Bd608d69-cp37-cp37m-linux_ppc64le.whl
+openpyxl==3.0.9
+opt-einsum @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/opteinsum/opt_einsum-3.3.0
+packaging==19.1
+paiargparse==1.1.2
+pandas==0.25.3
+paramiko==2.6.0
+partd @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/partd/partd-1.0.0
+pathlib2==2.3.4
+paycheck==1.0.2
+pbr==5.4.3
+Pillow==7.2.0
+pluggy==0.13.0
+pooch==1.4.0
+portpicker @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/portpicker/portpicker-1.3.1
+prettytable==3.2.0
+protobuf @ file:///dev/shm/easybuild-build/protobufpython/3.10.0/fosscuda-2019b-Python-3.7.4/protobuf-3.10.0
+psutil==5.6.3
+py==1.8.0
+py-expression-eval==0.3.9
+pyasn1==0.4.7
+pyasn1-modules @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/pyasn1modules/pyasn1-modules-0.2.8
+pycparser==2.19
+pycrypto==2.6.1
+Pygments==2.4.2
+PyNaCl==1.3.0
+pyparsing==2.4.2
+pytest==5.1.2
+python-bidi==0.4.2
+python-dateutil==2.8.0
+python-Levenshtein==0.12.2
+pytz==2019.2
+PyWavelets @ file:///dev/shm/easybuild-build/scikitimage/0.16.2/fosscuda-2019b-Python-3.7.4/PyWavelets/PyWavelets-1.1.1
+PyYAML==5.1.2
+requests==2.22.0
+requests-oauthlib @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/requestsoauthlib/requests-oauthlib-1.3.0
+rsa @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/rsa/rsa-4.7
+scandir==1.10.0
+scikit-image @ file:///dev/shm/easybuild-build/scikitimage/0.16.2/fosscuda-2019b-Python-3.7.4/scikitimage/scikit-image-0.16.2
+scipy==1.3.1
+setuptools-scm==3.3.3
+Shapely==1.7.1
+six==1.12.0
+smmap==5.0.0
+snowballstemmer==1.9.1
+sortedcontainers @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/sortedcontainers/sortedcontainers-2.1.0
+Sphinx==2.2.0
+sphinxcontrib-applehelp==1.0.1
+sphinxcontrib-devhelp==1.0.1
+sphinxcontrib-htmlhelp==1.0.2
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.2
+sphinxcontrib-serializinghtml==1.1.3
+sphinxcontrib-websupport==1.1.2
+tabulate==0.8.3
+tblib @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/tblib/tblib-1.5.0
+tensorboard @ file:///sw/taurus/sources/t/TensorFlow/extensions/tensorboard-2.4.1-py3-none-any.whl
+tensorboard-plugin-profile @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/tensorboardpluginprofile/tensorboard_plugin_profile-2.4.0
+tensorboard-plugin-wit @ file:///sw/taurus/sources/t/TensorFlow/extensions/tensorboard_plugin_wit-1.8.0-py3-none-any.whl
+tensorflow @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/tensorflow-2.4.1-cp37-cp37m-linux_ppc64le.whl
+tensorflow-addons @ https://github.com/tensorflow/addons/archive/refs/tags/v0.12.1.tar.gz
+tensorflow-estimator @ file:///sw/taurus/sources/t/TensorFlow/extensions/tensorflow_estimator-2.4.0-py2.py3-none-any.whl
+termcolor @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/termcolor/termcolor-1.1.0
+tfaip==1.2.6
+toolz @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/toolz/toolz-0.10.0
+tornado @ file:///dev/shm/easybuild-build/bokeh/1.4.0/fosscuda-2019b-Python-3.7.4/tornado/tornado-6.0.3
+tqdm==4.64.0
+typeguard==2.13.3
+typing-extensions @ file:///dev/shm/easybuild-build/typingextensions/3.7.4.3/GCCcore-8.3.0-Python-3.7.4/typing_extensions-3.7.4.3
+typing-inspect==0.7.1
+ujson==1.35
+urllib3==1.25.3
+virtualenv==16.7.5
+wcwidth==0.1.7
+Werkzeug @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/Werkzeug/Werkzeug-1.0.1
+wrapt @ file:///dev/shm/easybuild-hpcglrun/build/TensorFlow/2.4.1/fosscuda-2019b-Python-3.7.4/wrapt/wrapt-1.12.1
+xlrd==1.2.0
+XlsxWriter==3.0.3
+zict @ file:///dev/shm/easybuild-build/dask/2.8.0/fosscuda-2019b-Python-3.7.4/zict/zict-1.0.0
+zipp==0.6.0
