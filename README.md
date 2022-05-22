@@ -40,4 +40,13 @@ For optimal accuracy, we use
 
 ## Evaluation
 
-...to come
+...on held out validation data (used for checkpoint selection):
+
+| **model** | **CER** |
+| --- | --- |
+| hsbfraktur.cala1 | 1.4% |
+| hsbfraktur.cala | 0.7% |
+| hsblatin.cala1 | 1.3% |
+| hsblatin.cala | 0.6% |
+
+...on truly representative extra data: to come
