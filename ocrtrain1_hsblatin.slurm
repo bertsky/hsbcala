@@ -7,43 +7,49 @@
 #SBATCH --time=10:00:00   # walltime
 #SBATCH --nodes=1   # number of nodes
 #SBATCH --ntasks-per-node=1  # limit to one node
-#SBATCH --cpus-per-task=20  # number of processor cores (i.e. threads)
-#SBATCH --mem=32000M # total memory
+#SBATCH --cpus-per-task=22  # number of processor cores (i.e. threads)
+#SBATCH --mem-per-cpu=1443M # memory per core
 #SBATCH -J ocrtrain1_hsblatin   # job name
 #SBATCH -A p_da_layout
 #SBATCH --chdir /projects/p_da_layout/ocrbeegws
 
 # todo: chain job every 5 or so checkpoints
-# todo: multi-GPU
 # todo: ressource optimization (GPU RAM, CPU RAM, CPUs, nodes, workers)
 
 set -e
 shopt -s nullglob
 source /projects/p_da_layout/ocrenv1.sh
 
+tar -zxvf /projects/p_da_layout/ocrwaws/hsblatin2.tar.gz -C /dev/shm/
 mkdir -p hsblatin.cala1
+
 cmd=(calamari-train \
  --output_dir hsblatin.cala1 \
- --files "hsblatin.train/*.png" \
- --validation "hsblatin.val/*.png" \
+ --files "/dev/shm/hsblatin.train/*.png" \
+ --validation "/dev/shm/hsblatin.val/*.png" \
+ --train_data_on_the_fly \
+ --validation_data_on_the_fly \
  --num_threads 10 \
  --weights calamari_models/antiqua_historical/0.ckpt.json \
  --seed 50 \
  --batch_size=80 \
  --max_iters 5000000 \
  --n_augmentations 5 \
+ --early_stopping_frequency 1.0 \
  --early_stopping_nbest 10 \
  --no_progress_bars \
  --display 0.1)
 checkpoints=(hsblatin.cala1/model_*.ckpt.json)
 if ((${#checkpoints[*]})); then
     cmd=(calamari-resume-training --checkpoint ${checkpoints[-1]%.json} \
-	--files "hsblatin.train/*.png" --validation "hsblatin.val/*.png")
+	--files "/dev/shm/hsblatin.train/*.png" \
+	--validation "/dev/shm/hsblatin.val/*.png")
 fi
 
 echo "${cmd[@]}"
 nsys profile --force-overwrite true -o hsblatin.cala1/qdstrm.log "${cmd[@]}" 2>&1 | tee hsblatin.cala1/train.log
 
+# --text_regularization
 # --line_height 64 # default: 48
 # --network "cnn=40:3x3,pool=2x2,cnn=60:3x3,pool=2x2,lstm=200,dropout=0.5" \
 # --batch_size 32 # default: 16
