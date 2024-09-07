@@ -76,3 +76,7 @@ See [release archives](https://github.com/bertsky/hsbcala/releases) for model fi
 | hsblatin.cala1 | 1.23% |
 | hsblatin.cala | 0.52% |
 
+## Acknowledgement
+
+The authors are grateful to the [Center for Information Services and High Performance Computing at TU Dresden](https://tu-dresden.de/zih/hochleistungsrechnen)
+for providing its facilities for high throughput calculations.
